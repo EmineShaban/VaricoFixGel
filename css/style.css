@@ -2631,3 +2631,52 @@ footer a {
     display: inherit;
   }
 }
+
+
+
+
+/* order form */
+
+div.forma {
+  margin: 30px auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.forma div.img-order {
+  width: 100%;
+  margin: auto;
+}
+
+form h1 {
+  text-align: center;
+}
+
+div.forma form {
+  margin: auto;
+}
+
+div.forma form div.pole {
+  margin: 12px;
+  text-align: center;
+}
+
+div.forma form div.pole input {
+  padding: 8px 20px;
+  border: 1px solid black;
+}
+
+div.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2.all-h2 {
+  text-align: center;
+}
+.img-order img{
+  width: 100%;
+}
