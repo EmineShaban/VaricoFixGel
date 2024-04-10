@@ -2680,3 +2680,33 @@ h2.all-h2 {
 .img-order img{
   width: 100%;
 }
+
+
+
+@media screen and (max-width: 1500px) {
+ 
+  div.forma {
+      margin: 30px auto;
+      width: 65%;
+  } 
+}
+
+@media screen and (max-width: 1200px) { 
+  div.forma {
+      margin: 30px auto;
+      width: 80%;
+  }  
+}
+
+
+@media screen and (max-width: 768px) {
+
+ 
+div.forma{
+  display: block;
+}
+ 
+
+
+
+}
